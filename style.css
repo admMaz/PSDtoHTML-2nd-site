@@ -36,7 +36,18 @@
             position: fixed;
             right: 0%;
             top: 0px;
-            margin: 20px;
+            margin: 10px;
+        }
+        
+        nav {
+            position: fixed;
+        }
+        
+        .scroll {
+            background-color: #ffe92f;
+            color: #eef;
+            box-shadow: 5px 3px 10px rgb(36, 35, 35);
+            transition: .3s;
         }
         
         .shadow {
@@ -45,7 +56,6 @@
         
         nav {
             color: black !important;
-            background-color: rgba(245, 239, 239, 0.9)
         }
         
         .navbar-nav .nav-link {
@@ -77,6 +87,10 @@
             padding: 0;
             text-decoration: none;
             transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+        }
+        
+        .navbar-brand img {
+            width: 75px;
         }
         /* header*/
         
@@ -374,6 +388,13 @@
             #subscribe {
                 height: auto;
                 margin-bottom: 2em;
+            }
+            #contact .text p {
+                max-width: 80%;
+                margin-bottom: 2em;
+            }
+            .desc {
+                color: white;
             }
         }
         
