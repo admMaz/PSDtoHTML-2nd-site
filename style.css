@@ -92,6 +92,10 @@
         .navbar-brand img {
             width: 75px;
         }
+        
+        section {
+            padding-top: 1.75em;
+        }
         /* header*/
         
         #header {
@@ -302,6 +306,10 @@
             border: 1px solid transparent;
             background-color: #00c4c498;
             color: white;
+        }
+        
+        #contact .desc {
+            padding-top: 0.5em;
         }
         
         #contact h6 {
